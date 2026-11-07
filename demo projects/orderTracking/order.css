@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    height: 70%;
+    width:30%;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border: 1px solid black;
+   border-radius: 4px;
+}
+
+#container button{
+    height: 10%;
+    width: 80%;
+    background-color: blue;
+    border: 1px solid black;
+    padding:0.5vh;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#container button:hover{
+    background-color: rgb(62, 52, 140);
+}
+
+/* #container p 
+{
+    height: 5%;
+    width: 50%;
+     background-color: blue;
+    border: 1px solid black;
+    padding:0.5vh;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    text-align: center;
+    visibility: hidden;
+} */

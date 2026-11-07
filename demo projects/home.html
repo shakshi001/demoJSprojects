@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .highlight{
+        background-color :red;
+        padding:5px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="example-6">
+      <h1>Event handling</h1>
+      <button id="clickMebtn">Click me</button>
+    </section>
+    <section id="example-7">
+      <h3>Event Delegation</h3>
+      <ul id="teaList">
+        <li class="teaItem">Green Tea</li>
+        <li class="teaItem">Black Tea</li>
+        <li class="teaItem">Oolong Tea</li>
+      </ul>
+      <p>Click me any tea to select it</p>
+    </section>
+    <section id="example-8">
+      <h3>Form Handling</h3>
+      <form id="feedbackForm">
+        <label for="enterFeedback">
+          <input type="text" id="feedbackInput" placeholder="enter feedback" />
+          <button>Submit feedback</button>
+        </label>
+      </form>
+      <p id="feedbackDisplay"></p>
+    </section>
+    <section id="example-9">
+      <h2>DOM Content Loaded</h2>
+      <p id="domStatus">Waiting  for dom to loaded</p>
+    </section>
+    <section id="example-10">
+        <h2>CSS Classes Manipulation </h2>
+        <p id="descriptionText">This text will change color !</p>
+        <button id="toggelHighlight">Toggle Highlight</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
